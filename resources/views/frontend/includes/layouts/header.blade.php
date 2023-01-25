@@ -60,6 +60,31 @@
                       <a class="nav-link text-right ms-3 fs-30" href="#"><i class="fa-solid fa-bars-staggered"></i></a>   
 
                   </li>  
+                            @if(Auth::check())
+                                <a class="nav-link nav-link-user dropdown-toggle d-none d-sm-inline-block" href="#" id="userDropdown" data-toggle="dropdown">
+                <img src="{{ Auth::user()->profile->avatar }}" class="avatar img-fluid rounded mr-1" alt="{{ Auth::user()->name }}" /> <span class="text-dark">{!! Auth::user()->name !!}</span>
+              </a>
+
+
+					
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+								<a class="dropdown-item" href="pages-profile.html">Profile</a>
+								<a class="dropdown-item" href="#">Analytics</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="pages-settings.html">Settings & Privacy</a>
+								<a class="dropdown-item" href="#">Help</a> 
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+    document.getElementById('logout-form').submit();">
+                                        {{ __('Sign out') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+							</div>
+						</li>
+                        @endif
              </ul>
             </div>
         
