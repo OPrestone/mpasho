@@ -2,20 +2,9 @@
   <body> 
     <header class="sticky-top">
         <nav class="navbar mb-0 navbar-expand-md navbar-light">
-          <div class="w-100 flex-column " id="navbar"> 
-            <div class="d-flex container w-100 justify-content-between px-3">
-                <span class="nav-item active">
-                  <a class="nav-link" href="#">
-                    <img src="assets/img/logo.png" class="logo" alt=""> <span class="text-normal"></span></a>
-                </span> 
-                <li class="nav-item d-flex text-normal"> 
-                  <span class="dropdown">
-                    <!-- <a class="nav-link search d-flex">
-                      <input type="text" placeholder="Search Jambo.." class="form-control ps-5"> 
-                      <i class="fa-solid fa-magnifying-glass"></i></a>     -->
-                  </span> 
-                </li>
-            </div>
+          <div class="w-100 flex-column " id="navbar">        
+            <span class="dropdown">
+       
          <div class="navbar-dark w-100 bg-normal shadow">
             <ul class="menu container justify-content-between d-flex w-100 px-3 mb-0">
  
