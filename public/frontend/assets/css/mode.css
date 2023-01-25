@@ -1,0 +1,18 @@
+.card, .card-body, body, .text-dark{
+    background: #10000e;
+    color: #e5e5e5 !important;
+}
+.border-left {
+    border-left: 1px solid #464646;
+}
+.right-posts .card-body,.right-posts
+{
+    background: #0b000a75;
+}
+.bg-light-kiss {
+    --bs-bg-opacity: 1;
+    background-color: #29002575;
+}
+.reveal.active {
+    background-color: #0b000a75 !important;
+}

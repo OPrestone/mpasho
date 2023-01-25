@@ -1,0 +1,135 @@
+@media (min-width:992px) {
+    .stations .round, .stations .owl-carousel .owl-item img {
+        display: block;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .bg-img .container {
+        top: 64px;
+        position: relative;
+        font-size: 30px;
+    }
+    .carousel-caption p {
+        font-size: 35px;
+        line-height: 1;
+    }
+    
+}
+@media (max-width: 768px) {
+    .main-post img { 
+        min-height: 300px !important;
+        height: auto;
+    }
+    .nav-link { 
+        font-size: 12px;
+    }
+    .top-posts
+    .main-post img { 
+        min-height: 300px !important;
+        height: auto;
+    }
+    .bottom-posts .cat { 
+        left: 35%;
+    }
+    .cat:before { 
+        left: -0.4px; 
+        margin-top: 17px;
+    }
+    .videos
+    .main-post img {
+        height: 300px; 
+    }
+    .videos {
+        height: auto; 
+    }
+    .right-posts .cat { 
+        top: 211px;
+        left: 37%;
+    }
+    .more { 
+        left: 34%; 
+    }
+    .d-s-none{
+        display: none;
+    }
+    .h310 img {
+        height: 300px;
+        object-fit: cover;
+        object-position: top;
+    }
+    h5 {
+        font-size: 17px;
+    }
+    .bg-img img {
+        height: 20vh;
+    }
+    .carousel-caption { 
+        top: 20px;
+        padding: 35px 1rem;
+    }
+    .hero .live { 
+        right: 30px; 
+    }
+    .reveal  {
+        position: relative;
+        transform: translateY(30px);
+        opacity: .8;
+        transition: .9s all ease-in-out;
+      }
+    .h300 img {
+        height: 225px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .h170 img {
+        height: 135px; 
+    }
+    .card-img-overlay { 
+        padding: 0.5rem;
+        background: linear-gradient(180deg,transparent,#00000073,#000000a1,#000000c9,#000000d4);
+    }
+    .h170 .owl-carousel .owl-nav button.owl-prev,
+    .h170  .owl-carousel .owl-nav button.owl-next {
+        top: 100px ; 
+    }
+    .h200 img {
+        height: 170px; 
+        border-radius: 11px 11px 0 0;
+    }
+    .time { 
+        top: 145px; 
+    } 
+    .item h5 {
+        margin-top: 10px;
+        font-size: 16px !important;
+        font-weight: 600;
+        color: #41464b;
+    }
+    .play i { 
+        top: 100px;
+        font-size: 32px;  
+    }
+    .owl-carousel .owl-nav { 
+        display: none !important;
+    }
+    .owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next { 
+        top: 120px;  
+        display: none !important;
+    }
+    .card-text:last-child {
+        margin-bottom: 0;
+        font-size: 11px;
+    }
+    .bell { 
+        top: 108px; 
+    }
+    .live {
+        position: absolute;
+        top: 8px;
+        border-radius: 12px;
+        right: 8px;
+        padding: 0 4px;
+    }
+}
