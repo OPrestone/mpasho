@@ -51,7 +51,7 @@
                   </li>  
                             @if(Auth::check())
                                 <a class="nav-link nav-link-user dropdown-toggle d-none d-sm-inline-block" href="#" id="userDropdown" data-toggle="dropdown">
-                <img src="{{ Auth::user()->profile->avatar }}" class="avatar img-fluid rounded mr-1" alt="{{ Auth::user()->name }}" /> <span class="text-dark">{!! Auth::user()->name !!}</span>
+                <img src="{{ Auth::user()->profile->avatar }}" class="avatar img-fluid rounded mr-1" alt="{{ Auth::user()->name }}" /> <span class="text">{!! Auth::user()->name !!}</span>
               </a>
 
 
